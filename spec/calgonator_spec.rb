@@ -17,4 +17,10 @@ describe 'Sortings' do
       expect(array.insertion_sort).to eq expected
     end
   end
+
+  describe 'Merge sorting' do
+    it 'sorts like native method' do
+      expect(array.merge_sort).to eq expected
+    end
+  end
 end
